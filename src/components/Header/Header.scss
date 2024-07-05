@@ -1,0 +1,21 @@
+@import "../scss/variables";
+
+.container{
+    display: flex;
+    justify-content: space-around;
+
+    button{
+        padding: 1rem;
+        border-radius: 1rem;
+        border: none;
+        background-color: $beyaz;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+
+        &:hover{
+            background-color: $turuncu;
+            color: $beyaz;
+        }
+
+    }
+}

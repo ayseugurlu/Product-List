@@ -1,0 +1,18 @@
+@import "./components/scss/reset";
+@import "./components/scss/variables";
+@import "./components/scss/mixins";
+
+
+body{
+    
+    background: linear-gradient(to bottom, $pembe, $acikgri,$acikmavi );
+    h1{
+        color: $kahverengi;
+        text-align: center;
+        margin-top: 5rem;
+        font-size: 2.5rem;
+        font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
